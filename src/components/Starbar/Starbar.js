@@ -11,20 +11,6 @@ class Starbar extends Component {
       rating:0,
     }
   }
-  //
-  // handleMouseEnter(){
-  //
-  //   this.setState({
-  //     highlight: true,
-  //   });
-  // }
-  //
-  // handleMouseLeave(){
-  //
-  //   this.setState({
-  //     highlight: false,
-  //   });
-  // }
 
   handleOnHover(num){
     this.setState({
