@@ -2,15 +2,13 @@ import React, { Component } from 'react';
 
 import Starbar from './Starbar/Starbar';
 //import React Router
+import {Link} from 'react-router-dom';
 
 class Project extends Component {
 
 
 handleButtonClick(){
-  console.log('clicked');
-
   window.location.href = this.props.github
-
 }
 
   render(){
@@ -21,11 +19,14 @@ handleButtonClick(){
 
     return(
       <div style={projectContainer}>
-        <img src={this.props.image} alt=""  />
+        <img src={this.props.image} alt="" />
         <h4>{this.props.title}</h4>
-        <p> {this.props.description} </p>
-        <button onClick={() => this.handleButtonClick()}> Check it Out! </button>
+        <Link to={"/projects/"+this.props.id}> Check it out!</Link>
+
+        {/*<p> {this.props.description} </p>
+        <button onClick={() => this.handleButtonClick()}> Check it Out! </button>*/}
         <Starbar />
+
       </div>
     )
   }
