@@ -15,6 +15,7 @@ class DetailedProject extends Component {
         <img src={data[rp].image} alt=""/>
         <h4>{data[rp].title}</h4>
         <p> {data[rp].description} </p>
+        <p> completed on: {data[rp].completionDate}</p>
         <a href={data[rp].github}> Visit the Repo </a>
         <p><Link to="/projects">Go back to all the projects</Link></p>
           <h2> </h2>
