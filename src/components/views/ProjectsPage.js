@@ -19,13 +19,8 @@ class ProjectsPage extends Component {
 
     const projects = this.state.projects.map((project, index) => <Project key={index} id={index} image={project.image} title={project.title} description={project.description} github={project.github} />);
 
-    let allProj = {
-      display: "flex",
-      flexWrap: "wrap",
-      justifyContent: "space-between"
-    }
     return(
-      <div style={allProj}>
+      <div className="projects">
         {projects}
       </div>
     )

@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: rgb(1, 69, 5);
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+/* Navbar*/
+.navBar{
+  color: white;
+}
+
+.pageHeader{
+  float:left;
+}
+
+
+.navis{
+  float: right;
+  list-Style: none;
+  display: flex;
+  justify-Content: center;
+
+}
+
+.naviLink {
+  margin: 10px;
+  color: white;
+  text-decoration: none;
+
+}
+
+
+/*all projects*/
+
+.projects{
+
+}
+/*individual projects*/
+.projectContainer{
+  width: 100%;
+}
+
+.projectDetails{
+  position: relative;
+  bottom: 100px;
+}

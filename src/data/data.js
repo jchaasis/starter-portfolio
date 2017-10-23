@@ -2,10 +2,10 @@
   const projects = [
     {
       "image": "http://www.placecage.com/199/300",
-      "title": "iTunes Search",
+      "title": "Boat Yard",
       "description": "For this project, I did this one thing and then after that I did this other thing. At the end, I combined them all into one large group. It was Insane!",
       "completionDate": '9/1/2017',
-      "github": "https://github.com/jchaasis/week-four-project"
+      "github": "https://github.com/jchaasis/boat-yard"
     }, {"image": "http://www.placecage.com/c/199/300",
       "title": "Gabble",
       "description": "For this project, I did this one thing and then after that I did this other thing. At the end, I combined them all into one large group. It was Insane!",

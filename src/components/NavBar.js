@@ -21,11 +21,11 @@ class NavBar extends Component {
     return(
       <div>
         <nav>
-          <ul style={navis}>
-            <li style={naviLink}><Link to="/home"> Home </Link></li>
-            <li style={naviLink}><Link to="/projects"> Projects </Link></li>
-            <li style={naviLink}><Link to="/resume"> Resume </Link></li>
-            <li style={naviLink}><Link to="/contact"> Contact </Link></li>
+          <ul className='navis'>
+            <li ><Link to="/home" className='naviLink'> Home </Link></li>
+            <li ><Link to="/projects" className='naviLink'> Projects </Link></li>
+            <li ><Link to="/resume" className='naviLink'> Resume </Link></li>
+            <li ><Link to="/contact" className='naviLink'> Contact </Link></li>
           </ul>
         </nav>
       </div>

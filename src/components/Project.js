@@ -13,20 +13,15 @@ handleButtonClick(){
 
   render(){
 
-    let projectContainer = {
-      width: "250px",
-    }
 
     return(
-      <div style={projectContainer}>
+      <div className="projectContainer">
+
         <img src={this.props.image} alt="" />
+        <div className="projectDetails">
         <h4>{this.props.title}</h4>
         <Link to={"/projects/"+this.props.id}> Check it out!</Link>
-
-        {/*<p> {this.props.description} </p>
-        <button onClick={() => this.handleButtonClick()}> Check it Out! </button>*/}
-        <Starbar />
-
+        </div>
       </div>
     )
   }
